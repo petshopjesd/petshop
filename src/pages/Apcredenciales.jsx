@@ -8,7 +8,7 @@ import Cargando from '../components/cargando';
 import Modaldialog from '../components/modaldialog';
 import Fondo from '../components/fondo';
 import Generaimagen from '../components/generaImagen';
-import Ucredencial from '../components/Ucredencial';
+import Ucredencial from '../components/ucredencial';
 import {HOST} from '../config.js'
 import g from '../css/generaladm.module.css';
 import c from '../css/credencial.module.css';
