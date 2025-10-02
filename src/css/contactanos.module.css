@@ -1,0 +1,161 @@
+.formcont {
+    width: 71%;
+    height: 100%;
+    position: relative;
+    float: left;
+    padding-right: 2%;
+}
+
+.contactoscont {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.gcontenedor70 {
+    width: 70%;
+    min-height: 500px;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.titulof {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Muli", sans-serif;
+    color: #0b1c39;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+
+.itexta {
+    width: 97% !important;
+    height: 190px;
+    border: 1px solid #e5e6e9;
+    resize: none;
+    border-radius: 0px;
+    padding: 1%;
+    font-size: 15px;
+    background: transparent;
+    font-family: "Muli", sans-serif;
+}
+
+.inputg {
+    width: 99%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Muli", sans-serif;
+    border: 1px solid #e5e6e9;
+    height: 48px;
+    background: transparent;
+    padding-left: 1%;
+}
+
+.inputl {
+    width: 48%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Muli", sans-serif;
+    border: 1px solid #e5e6e9;
+    height: 48px;
+    background: transparent;
+    margin-right: 1%;
+}
+
+.inputr {
+    width: 48%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Muli", sans-serif;
+    border: 1px solid #e5e6e9;
+    height: 48px;
+    background: transparent;
+    margin-left: 1%;
+}
+
+.input {
+    width: 99%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Muli", sans-serif;
+    border: 1px solid #e5e6e9;
+    height: 48px;
+    background: transparent;
+    margin-right: 1%;
+}
+
+.botonbn {
+    background: #fff;
+    color: #ff2121 !important;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #ff2121;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ff2121;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    transition: color 0.4s ease;
+}
+
+.botonbn:hover {
+    background-color: #ff2121;
+    color: #fff !important;
+    transition: background-color 0.4s ease;
+    transition: color 0.4s ease;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.titulod {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #2a2a2a;
+}
+
+.subtitulod {
+    color: #8a8a8a;
+    font-size: 14px;
+}
+
+.comentatituloform {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .formcont {
+        width: 90%;
+        margin-bottom: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .contactoscont {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .gcontenedor70 {
+        width: 100%;
+        min-height: auto;
+    }
+
+}

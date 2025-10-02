@@ -1,0 +1,110 @@
+.galeria {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 21rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+}
+
+.tarjeta {
+    overflow: hidden;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0.3rem;
+    color: black;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.seccacciones {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.seccnombre {
+    width: 100%;
+    height: auto;
+}
+
+.seccimg img {
+    width: 100%;
+    height: auto;
+}
+
+.featured {
+    grid-column: span 2;
+}
+
+.fechacita {
+    width: 100%;
+    height: 70px;
+    background-color: #65B7F7;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 17px;
+}
+
+.citascontendor {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 25rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+}
+
+.seccdetallecita {
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+.seccdetallecita img {
+    position: relative;
+    top: 7px;
+}
+
+
+
+/* CSS */
+.fechacitab {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #373B44;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.fechacitab:hover,
+.fechacitab:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.fechacitab:active {
+    background: var(--color);
+    color: #fff;
+}

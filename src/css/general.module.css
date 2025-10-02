@@ -1,0 +1,161 @@
+.gcontenedor{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Muli", sans-serif;
+}
+.gcontenedor50{
+    width: 50%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gcontenedor70{
+    width: 70%;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gcontenedor70 iframe{
+    width: 100%;
+
+}
+.gcontenedorp70{
+    width: 70%;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+}
+
+.areablogs{
+    width: 70%;
+    min-height: 500px;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.areabusqueda{
+    width: 30%;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fondorosa{
+    background-image: url('../imgs/section_bg02.png');
+}
+.fila{
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.fila45{
+    width: 45%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.fila50{
+    width: 50%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.fila5{
+    width: 5%;
+    min-height: 50px;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.fila20{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    float: left;
+}
+.iconoinfo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.titulo{
+    color: #111111;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    
+}
+.areaTitulo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.link{
+    color: #c4c4c4;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.link:hover{
+    color: #ff656a;;
+    transition: background-color .5s ease-in-out;
+}
+.conterror{
+    width: 100%;
+    background-color: #ff2121;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid #ff2121;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+}
+@media screen and (max-width: 1024px) {
+    .gcontenedor{
+        width: 100%;
+    }
+    .gcontenedor50{
+        width: 90%;
+    }
+    .gcontenedor70{
+        width: 90%;
+    }
+    .gcontenedorp70{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .areablogs{
+        width: 100%;
+        min-height: 300px;
+    }
+    .areabusqueda{
+        width: 100%;
+        min-height: 200px;
+        margin-top: 20px;
+    }
+    
+}

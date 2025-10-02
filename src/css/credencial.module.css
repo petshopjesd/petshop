@@ -1,0 +1,21 @@
+.contCredenciales {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 29rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+}
+.credencial{
+    overflow: hidden;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0.3rem;
+    color: black;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.credencial p{
+    text-align: justify
+}

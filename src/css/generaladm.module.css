@@ -1,0 +1,375 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contPrincipal {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contCentro900 {
+    width: 900px;
+    height: auto;
+    min-height: 800px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contCentro500 {
+    width: 900px;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contCentro400 {
+    width: 900px;
+    height: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contCentro {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 200px;
+    height: 54px;
+    background-image: url("../imgs/logo.png");
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.rengloninput100 {
+    width: 80%;
+    height: 70px;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.renglongen100 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.renglongen50 {
+    width: 50%;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.renglongen45 {
+    width: 45%;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.renglongen5 {
+    width: 5%;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.inputgeneral {
+    width: 96%;
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inputgeneral2 {
+    width: 100%;
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.conterror {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    float: left;
+    background-color: #dd1e1e;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 3px;
+    transition: height 1s ease-in;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.boxshadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.botongeneral {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+    color: #FF2121;
+    border: 2px solid #FF2121;
+    background-color: #ffffff;
+    transition: background 0.5s ease;
+    transition: color 0.5s ease;
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.botongeneral:hover {
+    background-color: #FF2121;
+    color: #ffffff;
+    transition: color 0.5s ease;
+}
+
+.secciontabla {
+    overflow-x: auto;
+}
+
+.tabla100 {
+    width: 100%;
+    min-width: 320px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.tabla100 thead tr {
+    background-color: #f8f9fa;
+}
+
+.tabla100 thead tr th {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.tabla100 thead tr th {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.tabla100 tbody tr td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.baccion {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
+    border: #B7B7B7 solid 2px;
+    border-color: #B7B7B7;
+}
+
+.feditar {
+    background-color: #F0D955;
+}
+
+.feliminar {
+    background-color: #E70E0E;
+}
+
+.fleer {
+    background-color: #019B7B;
+}
+
+.fcrear {
+    background-color: #0FB5F1;
+}
+
+.dialogf {
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dialogE {
+    border-radius: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dialogcerra {
+    position: relative;
+    float: right;
+    background-color: #E70E0E;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+.dialogcerra:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    transform: translateY(1px);
+}
+
+.botonEnviar {
+    background-color: #0FB5F1;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: #019B7B solid 1px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mytextarea {
+    width: 96%;
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    font-size: 18px;
+    padding: 2%;
+}
+
+.file {
+    display: none;
+}
+
+.file+label {
+    display: flex;
+
+}
+
+.imgname {
+    background-color: #eee;
+    border: 1px solid #cacaca;
+    text-overflow: ellipsis;
+    width: 53%;
+    border-radius: 5px 0 0 5px;
+
+
+}
+
+.imgname span {
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.imgbutton {
+    background: #0FB5F1 url('/imgs/addphoto.png') 4px center/25px no-repeat;
+    border: 1px solid #0FB5F1;
+    color: white;
+    white-space: nowrap;
+    border-radius: 0 5px 5px 0;
+    padding-left: 32px !important;
+    cursor: pointer;
+}
+
+.imgname,
+.imgbutton {
+    padding: 5px 10px;
+}
+
+.modalview {
+    width: 650px;
+    height: 600px;
+    position: relative;
+    float: left;
+}
+
+.seccionFotos {
+    width: 250px;
+    height: 500px;
+    overflow-y: auto;
+    position: relative;
+    float: left;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.seccionDetalle {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    float: left;
+    text-align: justify;
+}
+
+.radioinputg{
+    display: none;
+}
+.radioinputg:checked + .radiolabel::before{
+    height: 7px;
+    width: 7px;
+    border:3px solid #ffffff;
+    background-color: #0FB5F1;
+
+}
+.radioinputg:checked + .radiolabel{
+    background-color: #0FB5F1;
+    color: #ffffff;
+
+}
+.radiolabel{
+    position: relative;
+    color: #0FB5F1;
+    cursor: pointer;
+    display: inline-flex;
+    gap:5px;
+    border: 3px solid #0FB5F1;
+    padding: 2px 2px;
+    border-radius: 5px;
+    align-items: center ;
+
+}
+.radiolabel::before{
+    content: "";
+    height: 7px;
+    width: 7px;
+    border: 3px solid #0FB5F1;
+    border-radius: 50%;  
+}
+
+

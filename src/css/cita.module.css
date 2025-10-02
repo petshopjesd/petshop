@@ -1,0 +1,189 @@
+.dcita{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.dfoto{
+    background-image: url("../imgs/contact_form.png");
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 837px;
+    float :left;
+}
+.contcita{
+    width: 49%;
+    height: auto;
+    min-height: 837px;
+    background-color: #F9F9F9;
+    position: relative;
+    float:left;
+    box-shadow: rgba(255, 33, 33, 0.4) -5px 5px, rgba(255, 33, 33, 0.3) -10px 10px, rgba(255, 33, 33, 0.2) -15px 15px, rgba(255, 33, 33, 0.1) -20px 20px, rgba(255, 33, 33, 0.05) -25px 25px;
+}
+.formcita{
+    width: 96%;
+    padding: 2%;
+
+}
+.ftitulo{
+    background-image: url("../imgs/contact_bg.png");
+    color: #fff;
+    font-size: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 68px 51px 68px 67px;
+    text-align: center;
+}
+.btncita{
+    width: 200px;
+    height: 50px;
+    background-color: #232024;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+.btncita:hover{
+    background-color: #FF2121;
+    transition: background-color 1s ease-in-out;
+}
+.fila45{
+    position: relative;
+    float: left;
+    width: 45%;
+    height: 40px;
+}
+.fila5{
+    position: relative;
+    float: left;
+    width: 5%;
+    height: 40px;
+}
+.fila50{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 40px;
+}
+.fila100{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+.myinput{
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+}
+.mytextarea{
+    width: 100%;
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    font-size: 18px;
+}
+.pieform{
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    width: 180px;
+    height: 185px;
+    background-image: url("../imgs/shape1.png");
+}
+.horaDisponible{
+    width: 19%;
+    height: 35px;
+    position: relative;
+    float: left;
+    background-color: #32B678;
+    margin-right: 1%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.horaApartada{
+    width: 14%;
+    height: 35px;
+    position: relative;
+    float: left;
+    background-color: #FF2121;
+    margin-right: 1%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    
+}
+.areahorarios{
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.errormens{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    float: left;
+    padding-top: 5px;
+    color: #b11a1a;
+    font-size: 13px;
+}
+.separador{
+    height: 100px;
+    width: 2%;
+    position: relative;
+    float: left;
+}
+.areahorariosadm{
+    width: 80%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media screen and (max-width: 900px) {
+    .dfoto{
+        display: none;
+    }
+    .contcita{
+        width: 100%;
+        box-shadow: none;
+        min-height: 600px;
+    }
+    .formcita{
+        width: 98%;
+        padding: 1%;
+    }
+    .pieform{
+        display: none;
+    }
+    .horaDisponible{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .horaApartada{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    
+}

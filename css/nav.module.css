@@ -1,0 +1,75 @@
+.secmenup{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-bottom: 1px solid #dee2e6;
+    font-family: "Muli", sans-serif;
+}
+.icono{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    float: left;
+    background-image: url("../src/imgs/logo.png");
+    margin-left: 100px;
+}
+.fondonav{
+    width: 32%;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+    float:right;
+    padding-top: 20px;
+}
+.secboton{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    float: right;
+    margin-right: 150px;
+}
+.botonn{
+    width: 140px;
+    background: #ff2121;
+    padding: 27px 36px;
+    padding: 18px 36px;
+    border-radius: 30px;
+    color: #fff;
+    outline: medium none;
+    text-align: center;
+}
+.fondonav ul{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: "Muli", sans-serif;
+    
+}
+.fondonav ul li{
+    position: relative;
+    margin-right: 20px;
+    width: 100px;
+}
+.fondonav a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    background: #f8f9fa;
+    color: #112957;
+}
+.fondonav a:hover {
+    color: #fd7e14;
+}
+.fondonav ul li ul {
+    display: none;
+    line-height: 30px;
+}
+.fondonav ul li a:hover + ul, .fondonav ul li ul:hover {
+    display: inline-block;
+}

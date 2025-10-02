@@ -1,0 +1,164 @@
+.footer{
+    width: 100%;
+    height: 410px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #6c757d;
+    font-family: "Muli", sans-serif;
+}
+.pcon{
+    width: 70%;
+    height: 350px;
+    display: block;
+    padding: 0%;
+    float: left;
+    margin: auto;
+}
+.copia{
+    border-top: 1px solid #d7e7fe;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #FFFFFF; /* color suave para diferenciar */
+    clear: both;         /* asegura que esté debajo de los elementos flotantes */
+    box-sizing: border-box;
+}
+.copia2{
+    width: 20%;
+    height: 60px;
+    position: relative;
+    float: right;
+
+}
+.redes a{
+    margin-right: 10px;
+}
+.con1{
+    width: 10%;
+    height: 300px;
+    position: relative;
+    float: left;
+
+}
+.con2{
+    width: 20%;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+.con3{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+.con2 p a{
+    text-decoration: none;
+}
+.titulo{
+    color: #012f5f;
+    margin-bottom: 29px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.milink{
+    color: #506172;
+    transition: padding-left .5s ease;
+    transition: color .5s ease;
+    text-decoration: none;
+}
+.milink:hover{
+    padding-left: 5px;
+    color: #ff2121;
+    cursor: pointer;
+    transition: padding-left .5s ease;
+    transition: color .5s ease;
+}
+
+
+.love {
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    background: red;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    animation: beating 2s ease infinite;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.love:before,
+.love:after {
+    content: "";
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+}
+
+.love:before {
+top: 0;
+left: -6px;
+}
+
+.love:after {
+top: -6px;
+}
+@keyframes beating {
+    0% {
+        transform: rotate(45deg) scale(1);
+    }
+    50% {
+        transform: rotate(45deg) scale(2);
+    }
+    100% {
+        transform: rotate(45deg) scale(1);
+    }
+}
+.logo{
+    background-image: url("../imgs/logo2_footer.png");
+    width: 200px;
+    height: 54px;
+    position: relative;
+    
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        height: auto;
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .pcon{
+        width: 90%;
+        height: auto;
+    }
+    .con1, .con2, .con3{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .copia{
+        height: auto;
+        padding: 20px 0;
+    }
+    .logo{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .pcon{
+        width: 90%;
+        height: auto;
+    }
+}

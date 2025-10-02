@@ -1,0 +1,134 @@
+.garea{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 500px;
+    display: inline-block;
+    font-family: "Muli", sans-serif;
+    padding-bottom: 50px;
+    
+}
+
+.titulo{
+    padding-top:100px;
+    text-align: center;
+    color: #222222;
+}
+.titulo h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.titulo h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.maincont{
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.slidercont{
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.sliderImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* La animación se aplica cuando el componente de imagen se monta de nuevo gracias a la 'key' */
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.3;
+        transform: scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    user-select: none;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.arrow:first-of-type {
+    left: 20px;
+}
+
+.arrow:last-of-type {
+    right: 20px;
+}
+
+.dotsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.4s ease;
+}
+
+.activeDot, .dot:hover {
+    background-color: #FF2121;
+}
+.inputgeneral {
+    width: 20%;
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 1024px) {
+    .inputgeneral{
+        width: 95%;
+        padding-left: 2%;
+    padding-right: 3%;
+    }
+    .maincont {
+        width: 95%;
+    }
+    .slidercont {
+        height: 300px;
+    }
+    
+}
