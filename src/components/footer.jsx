@@ -1,15 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router' 
+import { useNavigate } from 'react-router-dom'
 import f from '../css/footer.module.css'
 
 
 export default function Footer() {
+  const navigate = useNavigate();
+  const irLuzDA = () => {
+    navigate('/Apinicio');
+  }
   return (
     <>
       <footer className={f.footer}>
         <div className={f.pcon}>
           <div className={f.con3}>
-            <div className={f.logo}>
+            <div className={f.logo} onClick={irLuzDA}>
             </div>
             <div className={f.redes}>
               <p><br/><br/>Salud a tu Mascotita<br/><br/><br/></p>
