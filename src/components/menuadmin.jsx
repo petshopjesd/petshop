@@ -34,7 +34,7 @@ export default function Menuadmin() {
           {usuario.pservicios === 1 && <li><Link to="/Apservicios">Servicios</Link></li>}
           {usuario.pusuarios === 1 && <li><Link to="/Apusuarios">Usuarios</Link></li>}
           <li>
-            <button onClick={cerrarSesion}>Salir</button>
+            <button className={m.btnsalir} onClick={cerrarSesion}>Salir</button>
           </li>
         </ul>
       </nav>

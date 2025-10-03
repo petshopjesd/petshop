@@ -25,7 +25,7 @@ export default function Apinicio() {
       });
       const datau = await response.json();
       if (datau !== null) {
-        if (datau.idstatus === 1) {
+        if (datau.idestatus === 1) {
           localStorage.setItem('usuario', JSON.stringify(datau));
           navigate('/Aphome');
         } 

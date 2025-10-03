@@ -70,6 +70,16 @@
     margin-right: 50px;
     border-radius: 15px;
 }
+.btnsalir{
+    background-color: #FF2121;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
 @media (max-width:880px) {
     .navbar{
         backdrop-filter: none;

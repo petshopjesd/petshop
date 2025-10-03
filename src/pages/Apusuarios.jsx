@@ -161,7 +161,7 @@ export default function Apusuarios() {
                             data && data.map((item, index) => (
                                 <article className={u.tarjetausuario} key={index}>
                                     <div>
-                                        <p>Nombre: {item.name} {item.apellido}</p>
+                                        <p>{item.name} {item.apellido}</p>
                                         <p>User: {item.usuario}</p>
                                         <p>{item.email}</p>
                                     </div>
